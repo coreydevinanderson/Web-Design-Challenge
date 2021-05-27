@@ -16,26 +16,39 @@
   </head>
   
   <body>
-    <div class = "container">
+    <!-- <div class = "container">
       <div class = "row text-center">
           <div class = "col-sm-12">
-            <img src = "https://raw.githubusercontent.com/coreydevinanderson/python-api-challenge/master/WeatherPy/Images/maxtemp_all.png" 
-            class = "img-fluid">  
+            <figure class = "figure">
+              <img src = "https://raw.githubusercontent.com/coreydevinanderson/python-api-challenge/master/WeatherPy/Images/maxtemp_all.png"
+              class="figure-img img-fluid rounded" alt="Temperature">
+              <figcaption class="figure-caption text-start">Scatter plot of maximum daily temperature (F) against latitude at 
+                weather stations in cities nearest to 500 randomly generated global coordinates. Note the nonlinear 
+                relationship, reflecting the fact that temperature generally increases as you approach the equator. The rate of increase in temperature was lower in the southern hemisphere. This might
+                may reflect the fact that there is less land mass and thus fewer cities near the South Pole. </figcaption>    
+            </figure>
           </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class = "container">
-      <div class = "row">
-        <div class = "col-sm-12">
-          <p>Scatter plot of maximum daily temperature (F) against latitude at weather stations in cities nearest to 500 randomly generated
-             global coordinates. Note the nonlinear relationship, reflecting the fact that temperature generally increases 
-             as you approach the equator. The rate of increase in temperature was lower in the southern hemisphere. This might
-             may reflect the fact that there is less land mass and thus fewer cities near the South Pole. 
-          </p>
+    <div class = "container h-100">
+      <div class ="row h-100 justify-content-center align-items-center">
+        <div class ="col-sm-6 my-auto">
+          <div class ="card" style="width:auto">
+            <img src ="https://raw.githubusercontent.com/coreydevinanderson/python-api-challenge/master/WeatherPy/Images/maxtemp_all.png"
+                 class ="card-img-top" alt="Temperature_image">
+            <div class ="card-body">
+              <p class ="card-text">Scatter plot of maximum daily temperature (F) against latitude at weather stations in cities 
+              nearest to 500 randomly generated global coordinates. Note the nonlinear relationship, reflecting the fact that 
+              temperature generally increases as you approach the equator. The rate of increase in temperature was lower in the 
+              southern hemisphere. This might may reflect the fact that there is less land mass and thus fewer cities near the South Pole.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-  
+     </div> 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>    
   </body>
 </html>
