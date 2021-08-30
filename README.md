@@ -1,5 +1,6 @@
-<h3> Wed-Design-Challenge </h3>
+This site contains html with bootstrap css styling to create a website for global weather data.
 
-<p> This site contains html with bootstrap css styling for the GT Data Science and Analytics 'Web-Design-Challenge'.</p>
+-----
 
-<p> All code was written by Corey Devin Anderson </p>
+All code written by: 
+Corey D. Anderson
